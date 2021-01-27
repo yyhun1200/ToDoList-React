@@ -1,0 +1,31 @@
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+}
+.LoginPage .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vh;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20%;
+  padding: 10px;
+  color: white;
+}
+
+.LoginPage .container .title {
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+.LoginPage .container img {
+  width: 80%;
+}
+.LoginPage .container img:hover {
+  cursor: pointer;
+}

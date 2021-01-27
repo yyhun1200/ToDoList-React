@@ -5,7 +5,7 @@ import LoginPage from "./components/LoginPage/loginPage";
 const App = () => {
   return (
     <div className={styles.App}>
-      <LandingPage />
+      <LoginPage />
     </div>
   );
 };
