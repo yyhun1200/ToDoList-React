@@ -1,16 +1,31 @@
 .Header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: auto;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 0.5rem;
 }
+.Header .wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
 .Header .title {
   font-size: 1.5rem;
 }
 .Header .inputForm {
-  top: 0.35rem;
-  right: 1rem;
+  text-align: right;
+}
+.Header .inputForm input {
+  width: 80%;
+  height: 1.6rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5rem;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  caret-color: white;
 }

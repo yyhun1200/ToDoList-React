@@ -9,13 +9,6 @@ const LandingPage = (props) => {
       <Header />
       <div className={styles.cardContainer}>
         <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
       </div>
     </div>
   );
