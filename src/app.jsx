@@ -1,7 +1,13 @@
-import "./app.css";
+import styles from "./app.module.css";
+import LandingPage from "./components/LandingPage/landingPage.jsx";
+import LoginPage from "./components/LoginPage/loginPage";
 
-function App() {
-  return <h1>Hello:)</h1>;
-}
+const App = () => {
+  return (
+    <div className={styles.App}>
+      <LandingPage />
+    </div>
+  );
+};
 
 export default App;

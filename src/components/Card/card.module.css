@@ -1,0 +1,22 @@
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 45%;
+  height: 70px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.Card span {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  font-size: 0.6rem;
+}
+.Card span:hover {
+  cursor: pointer;
+}

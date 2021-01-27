@@ -1,0 +1,12 @@
+.LandingPage {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+}
+.LandingPage .cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5px auto 0 auto;
+  width: 95%;
+}
