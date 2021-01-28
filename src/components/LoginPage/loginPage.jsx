@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "./loginPage.module.css";
-import kakao from "../../img/kakaologin.png";
 
-const LoginPage = (props) => {
+const LoginPage = ({ authService }) => {
+  const handleOnClick = () => {
+    authService.logIn();
+  };
   return (
     <div className={styles.LoginPage}>
       <div className={styles.container}>
-        <img src={kakao} alt="카카오 로그인" />
+        <button onClick={handleOnClick}>구글 로그인</button>
       </div>
     </div>
   );

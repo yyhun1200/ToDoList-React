@@ -3,16 +3,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage/landingPage.jsx";
 import LoginPage from "./components/LoginPage/loginPage";
 
-const App = () => {
+const App = ({ authService }) => {
   return (
     <div className={styles.App}>
       <Router>
         <Switch>
-          <Route exact path="/login">
-            <LoginPage />
-          </Route>
           <Route exact path="/">
-            <LandingPage />
+            <LandingPage authService={authService} />
+          </Route>
+          <Route exact path="/login">
+            <LoginPage authService={authService} />
           </Route>
         </Switch>
       </Router>

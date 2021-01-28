@@ -22,9 +22,20 @@
   font-size: 0.8rem;
   padding-bottom: 0.5rem;
 }
-.LoginPage .container img {
+.LoginPage .container button {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px;
   width: 80%;
-}
-.LoginPage .container img:hover {
+  height: 20%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 2rem;
+  font-weight: 600;
   cursor: pointer;
+  transition: all 0.2s;
+}
+.LoginPage .container button:hover {
+  background-color: #ccc;
+  box-shadow: -1px -1px 5px;
 }

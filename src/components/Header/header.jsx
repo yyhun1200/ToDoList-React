@@ -18,9 +18,9 @@ const Header = (props) => {
     <header className={styles.Header}>
       <div className={styles.wrapper}>
         <h1 className={styles.title}>To Do List</h1>
-        <form className={styles.inputForm} onSubmit={handleSubmit}>
+        <div className={styles.inputForm} onSubmit={handleSubmit}>
           <input ref={inputRef} type="text" />
-        </form>
+        </div>
       </div>
     </header>
   );
