@@ -14,7 +14,8 @@
   align-items: center;
 }
 .Header .title {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 .Header .inputForm {
   text-align: right;
@@ -28,4 +29,5 @@
   outline: none;
   background-color: rgba(0, 0, 0, 0.5);
   caret-color: white;
+  color: white;
 }
