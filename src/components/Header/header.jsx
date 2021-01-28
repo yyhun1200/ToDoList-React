@@ -4,18 +4,16 @@ import { useRef } from "react";
 import styles from "./header.module.css";
 
 const Header = (props) => {
-  const { userToDo, setUserToDo } = { ...props };
+  const { addCard } = { ...props };
   const inputRef = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const value = inputRef.current.value;
-    const newData = { ...userToDo };
-    newData.toDo.push(value);
-    setUserToDo(newData);
+    addCard(value);
     inputRef.current.value = "";
   };
-  
+
   return (
     <header className={styles.Header}>
       <div className={styles.wrapper}>
